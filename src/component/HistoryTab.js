@@ -1,13 +1,16 @@
 import React from 'react';
+import './ticket.css';
 
 function HistoryTab() {
   return (
-    <div className="tab">
+    <div id='gg'>
+      <div className="tab">
       <h2>History</h2>
       <div className="detail-item">
-        <label>History:</label>
+        <label>History Tracking:</label>
         <input type="text" />
       </div>
+    </div>
     </div>
   );
 }

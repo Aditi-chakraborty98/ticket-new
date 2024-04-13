@@ -2,7 +2,8 @@ import React from 'react';
 import './ticket.css';
 function TicketDetailsTab() {
   return (
-    <div className="tab">
+    <div id='gg'>
+       <div className="tab">
       <h2>Ticket Details</h2>
       <div className="detail-item">
         <label>Issue Description:</label>
@@ -29,6 +30,8 @@ function TicketDetailsTab() {
         <input type="file" multiple />
       </div>
     </div>
+    </div>
+   
   );
 }
 

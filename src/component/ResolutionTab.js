@@ -2,7 +2,8 @@ import React from 'react';
 
 function ResolutionTab() {
   return (
-    <div className="tab">
+    <div id='gg'>
+      <div className="tab">
       <h2>Resolution</h2>
       <div className="detail-item">
         <label>Resolution and Closure:</label>
@@ -13,6 +14,8 @@ function ResolutionTab() {
         <textarea rows="4"></textarea>
       </div>
     </div>
+    </div>
+    
   );
 }
 

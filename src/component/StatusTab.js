@@ -1,8 +1,8 @@
 import React from 'react';
 
 function StatusTab() {
-  return (
-    <div className="tab">
+  return (<div id='gg'>
+      <div className="tab">
       <h2>Status</h2>
       <div className="detail-item">
         <label>Status Tracking:</label>
@@ -13,6 +13,8 @@ function StatusTab() {
         <textarea rows="4"></textarea>
       </div>
     </div>
+  </div>
+    
   );
 }
 

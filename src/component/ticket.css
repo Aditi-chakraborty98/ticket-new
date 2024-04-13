@@ -1,6 +1,6 @@
 /* TicketDetailsTab.css */
 #Body{
-  background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg);
+  background-color: grey;
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -12,6 +12,18 @@
 }
 .tab {
     padding: 20px;
+    max-width: 512px;
+    display: inline-block;
+    width: 512px;
+    background-color: #0d6efd;
+    border-radius: 10px;   
+    height: 840px;
+   
+  }
+  #gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .tab h2 {
